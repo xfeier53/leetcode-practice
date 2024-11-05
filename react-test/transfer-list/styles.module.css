@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  padding: 10px;
+  border: 1px solid black;
+  min-width: 140px;
+  min-height: 200px;
+}
+
+.actionButtons {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}

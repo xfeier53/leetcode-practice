@@ -1,0 +1,34 @@
+.information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.points {
+  font-size: 30px;
+}
+
+.winner {
+  font-size: 30px;
+  color: red;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  gap: 10px;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(3, 200px);
+}
+
+.block {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+  font-size: 100px;
+  justify-content: center;
+  align-items: center;
+}

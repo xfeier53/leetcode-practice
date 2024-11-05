@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+
+.segment {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+}
+
+.segmentNumberContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.border0 {
+  border-top-color: black;
+}
+.border1 {
+  border-right-color: black;
+}
+.border2 {
+  border-bottom-color: black;
+}
+.border3 {
+  border-left-color: black;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.colon {
+  font-size: 30px;
+}
